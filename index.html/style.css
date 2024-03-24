@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  background-image: url("PHOTOS/Playstation1.jpg");
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-family: Courier, monospace;
+  margin-top: 10px;
+}
+
+h2 {
+  color: white;
+  font-family: Courier, monospace;
+  margin-top: 10px;
+}
+
+form {
+  color: white;
+  margin-top: 50px;
+}
+
+label { /*هذا يحط المسافات بين الليبل حق اليوزر والباسوورد*/
+  color: white;
+  display: block;
+  margin-bottom: 50px;
+}
+
+header {
+  background-image: url("PHOTOS/con-ps.jpg");
+  color: white;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+header img { /*هذا حق كلمة بلاي ستيشن كاردز*/
+  color: white;
+  height: 150px;
+  margin-right: 50px;
+}
+
+footer {
+  background-image: url("PHOTOS/con-ps.jpg");
+  color: white;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+footer img { /*هذا حق كلمة بلاي ستيشن كاردز*/
+  color: white;
+  height: 150px;
+  margin-right: 100px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 50px;
+  color: black;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4B0082;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  list-style-type: none;
+}
+
+li {
+  color: white;
+  margin: 50px;
+}
+
+a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+span {
+  margin-top: 10px;
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+.card {
+  margin: 50px;
+  align-items: center;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.quantity {
+  width: 30px;
+}
+
+button {
+  color: white;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+}
+
+.review {
+  width: 500px;
+  height: 50px;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+}
